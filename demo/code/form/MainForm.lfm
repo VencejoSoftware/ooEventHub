@@ -1,0 +1,32 @@
+object MainForm: TMainForm
+  Left = 471
+  Height = 202
+  Top = 186
+  Width = 447
+  Caption = 'Form2'
+  ClientHeight = 202
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.8.0.3'
+  object Button1: TButton
+    Left = 272
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    left = 216
+    top = 104
+  end
+end
