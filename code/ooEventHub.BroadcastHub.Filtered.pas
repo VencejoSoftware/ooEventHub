@@ -29,7 +29,7 @@ type
 
 {$REGION 'documentation'}
 {
-  @abstract(Implementation of @link(IBroadcastHub))
+  @abstract(Object to define a broadcast hub with filter capabilities)
   @member(
     ChangeFilter Change the current filter
     @param(Filter Reference to method for filter callback)
